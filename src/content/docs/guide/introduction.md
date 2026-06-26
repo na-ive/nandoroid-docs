@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-# 【 NAnDoroid-shell 】
+# NAnDoroid-shell
 
 A Quickshell-based desktop shell for Hyprland adopting Android 16 design elements.
 

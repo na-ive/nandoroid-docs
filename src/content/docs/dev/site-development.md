@@ -1,6 +1,8 @@
 ---
-title: Site Development Guide
+title: Site Development
 description: Information about developing and contributing to the NAnDoroid documentation site.
+sidebar:
+  order: 3
 ---
 
 Welcome to the meta-documentation! This page explains how the NAnDoroid documentation site is built and how you can contribute to it.
