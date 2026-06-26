@@ -17,7 +17,10 @@ export default defineConfig({
 				baseUrl: 'https://github.com/na-ive/nandoroid-docs/edit/main/',
 			},
 			lastUpdated: true,
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/na-ive/nandoroid-shell' }],
+			social: [
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/na-ive/nandoroid-shell' },
+				{ icon: 'pen', label: 'Docs Repository', href: 'https://github.com/na-ive/nandoroid-docs' },
+			],
 			sidebar: [
 				{
 					label: 'General',
