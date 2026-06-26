@@ -10,6 +10,7 @@ export default defineConfig({
 		starlight({
 			title: 'NAnDoroid-shell',
 			logo: { src: './public/NAnDoroid.svg', replacesTitle: false },
+			favicon: '/NAnDoroid.svg',
 			customCss: ['./src/styles/custom.css'],
 			plugins: [starlightThemeNova()],
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/na-ive/nandoroid-shell' }],
