@@ -12,7 +12,7 @@ This page lists all the packages and services required to run NAnDoroid-shell co
 | Component | Package | Description |
 | :--- | :--- | :--- |
 | **Compositor** | `hyprland` | The tiling Wayland compositor hosting the shell. |
-| **Framework** | `quickshell` | The engine (0.5.0+) used to build and run the shell. |
+| **Framework** | `quickshell` | The engine used to build and run the shell. |
 | **Monitor** | `dgop` | System monitoring (CPU, RAM, Temp) stats. |
 | **Theme** | `matugen` | Material 3 theme generation from wallpapers. |
 | **GTK Theme** | `adw-gtk-theme` | Libadwaita-like theme for GTK3 applications. |

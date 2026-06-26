@@ -5,7 +5,7 @@ sidebar:
   order: 3
 ---
 
-Welcome! This guide will walk you through getting Nandoroid Shell up and running on your system. It is specifically tailored for clean Arch Linux or CachyOS setups running Hyprland.
+Welcome! This guide will walk you through getting Nandoroid Shell up and running on your system. It is specifically tailored for clean installs of Arch Linux or Arch-based distributions running Hyprland.
 
 ## Understanding the Scope
 

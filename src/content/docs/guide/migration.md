@@ -135,18 +135,18 @@ If you ever need the raw IPC commands, they are fully documented in the main REA
 
 ## Advice for KDE Plasma Migrants
 
-If you are coming directly from KDE Plasma on Wayland:
-1. Make sure to remove any KDE autostart entries that might conflict, such as `plasmashell` or `kwin`.
-2. Keep `qt6ct` installed if you rely on it for Qt application theming. Matugen will generate color schemes that play nicely alongside it.
-3. Dolphin will continue to work perfectly as your main file manager.
-4. KDE Connect operates independently and will keep functioning as expected.
+If you are coming from KDE Plasma and plan to keep it installed alongside Hyprland:
+1. **Do not run Plasma components inside Hyprland:** Ensure you don't have `exec-once = plasmashell` or `kwin` in your Hyprland config. Nandoroid provides its own shell.
+2. **Keep `qt6ct` or `Kvantum`:** These are still useful for Qt application theming. Matugen will generate color schemes that play nicely alongside them.
+3. **Dolphin:** It will continue to work perfectly as your main file manager.
+4. **KDE Connect:** It operates independently. You can start it in Hyprland by adding `exec-once = /usr/lib/kdeconnectd` (path may vary) to your Hyprland configuration.
 
 ## Advice for GNOME Migrants
 
-If you are coming from GNOME:
-1. You must switch your portal setup. Remove `xdg-desktop-portal-gnome` and replace it with `xdg-desktop-portal-gtk`. The GTK portal plays very nicely with Hyprland, while the GNOME one generally causes issues.
-2. Nautilus (Files) will still work as your primary file manager.
-3. Keep in mind that GNOME extensions will no longer apply. Nandoroid Shell provides all the equivalent shell features natively.
+If you are coming from GNOME and want to keep it installed:
+1. **DO NOT uninstall `xdg-desktop-portal-gnome`!** On Arch Linux, removing it can accidentally uninstall your entire GNOME desktop due to dependencies. Instead, simply install `xdg-desktop-portal-gtk` alongside it. Hyprland is smart enough to use its own portal for screen sharing and fall back to the GTK portal for file pickers automatically.
+2. **Nautilus (Files):** It will still work as your primary file manager without issues.
+3. **GNOME Extensions:** Keep in mind that GNOME extensions will not apply here. Nandoroid Shell provides all the equivalent desktop features natively.
 
 ## Updating Safely
 
