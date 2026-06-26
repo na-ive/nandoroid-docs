@@ -3,15 +3,22 @@ title: NAnDoroid-shell
 description: A Quickshell-based desktop shell for Hyprland adopting Android 16 design elements.
 template: splash
 hero:
-  tagline: A Quickshell-based desktop shell for Hyprland adopting Android 16 design elements.
+  title: |
+    <p style="font-size: 60px; font-weight: 300">NAnDoroid-shell</p>
+  tagline: |
+    <p style="font-size: 22px; max-width: 450px;">A Quickshell-based desktop shell for Hyprland adopting Android 16 design elements.</p>
   image:
-    html: |
-      <img src="/index.png" alt="NAnDoroid Preview" style="border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);" />
+    html: "<img alt='NAnDoroid Preview' src='/index.png' />"
   actions:
+    - text: Showcase
+      link: ./general/showcase
+      icon: star
+      variant: primary
     - text: Get Started
-      link: /guide/introduction/
+      link: ./guide/introduction
       icon: right-arrow
-    - text: View on GitHub
+      variant: primary
+    - text: GitHub Repo (na-ive/nandoroid-shell)
       link: https://github.com/na-ive/nandoroid-shell
       icon: external
       variant: minimal
@@ -19,33 +26,23 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Key Features
-
 <CardGrid stagger>
-	<Card title="Universal Dynamic Island" icon="laptop">
-		Displays media playback indicators, workspace switching, pomodoro timers, and popup notifications inside a single central notch.
+	<Card title="[ [ Universal notch ] ]">
+    Media, workspaces, pomodoro, and popups. All in one centered pill.
 	</Card>
-	<Card title="Deep Customizability" icon="setting">
-		Extensive personalization options including clocks, lockscreen visuals, and UI sizing accessible directly via the built-in Settings panel.
+	<Card title="+//+ Material 3 Expressive +//+">
+    Colors dynamically extracted from your wallpaper. Just like your phone.
 	</Card>
-	<Card title="Auto-generated Colors" icon="color">
-		Entire shell theme dynamically generated from your wallpaper's colors using Material 3 design tokens.
+	<Card title=">>× Deep Customizability ×<<">
+    Tweak everything. Clocks, lockscreens, sizing. Right from the built-in Settings.
 	</Card>
-	<Card title="Online Wallpaper Collections" icon="image">
-		Browse and apply wallpapers from Wallhaven and personal GitHub collections directly from the shell.
+	<Card title="•• Infinite Wallpapers ••">
+    Fetch and apply wallpapers instantly from Wallhaven and GitHub.
 	</Card>
-</CardGrid>
-
-## Previews
-
-[PUT VIDEO HERE]
-Video showcasing the Universal Dynamic Island and panel transitions.
-
-<CardGrid>
-	<Card title="Stacked Clock & Centered Bar" icon="document">
-		[PUT IMAGE HERE]
+  <Card title="~>< Quality of life ><~">
+    OCR, Smart screen recording, Clipboard history. One keybind away.
 	</Card>
-	<Card title="Dynamic Island & Spotlight" icon="magnifier">
-		[PUT IMAGE HERE]
+  <Card title="$>_ Wayland Native _<$">
+    Built on Quickshell. Fast, modern, and tailored for Hyprland.
 	</Card>
 </CardGrid>

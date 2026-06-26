@@ -80,3 +80,14 @@
 .actions {
   gap: 10px;
 }
+@media (min-width: 50rem) {
+  .hero > .image, .hero > img {
+    width: 100% !important;
+    max-width: none !important;
+  }
+  .hero > .image img {
+    width: 160% !important;
+    max-width: none !important;
+    transform: translateX(10%);
+  }
+}
