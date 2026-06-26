@@ -3,12 +3,12 @@ title: Changelog
 description: Release history and updates for NAnDoroid-shell.
 ---
 
-# Nandoroid Shell v1.4.0 Release Notes
+## v1.4.0
 
-## Overview
+### Overview
 This major release migrates the core Hyprland configurations to Lua, introduces a unified and restructured System Settings page, and implements a deep integration with Steam's Wallpaper Engine. It also enhances the notification system with swipe-to-dismiss feedback, smart routing, and horizontal actions scrolling, alongside significant performance optimizations that minimize background CPU/GPU overhead.
 
-## Changelog
+### Changelog
 
 **Hyprland Lua Migration**
 - Migrate core Hyprland configurations to Lua format (compatible with Hyprland 0.55+)
@@ -48,12 +48,12 @@ This major release migrates the core Hyprland configurations to Lua, introduces 
 
 ---
 
-# Nandoroid Shell v1.3.1 Release Notes
+## v1.3.1
 
-## Overview
+### Overview
 This maintenance update addresses critical path resolution issues for screenshot storage and shell versioning. It also introduces significant typographic refinements for better visual balance and improves the interactivity of the About page. Stability is further enhanced with improved search indexing and a reliable temporal auto-hide logic for status bar hints.
 
-## Changelog
+### Changelog
 
 **System & Path Resolution**
 - Resolve shell metadata and versioning path issues by centralizing files in `~/.config/nandoroid/`
@@ -74,12 +74,12 @@ This maintenance update addresses critical path resolution issues for screenshot
 
 ---
 
-# Nandoroid Shell v1.3.0 Release Notes
+## v1.3.0
 
-## Overview
+### Overview
 This major update introduces a comprehensive global scaling system, enhancing usability across high-resolution displays. It features a new Quick Actions HUD for rapid system tasks, a revamped Wallpaper Selector with online collection support and custom folder management, and an enhanced Weather service with primary provider selection.
 
-## Changelog
+### Changelog
 
 **Global Scaling & UI**
 - Implement comprehensive global scaling across all panels, widgets, and sub-components
@@ -113,12 +113,12 @@ This major update introduces a comprehensive global scaling system, enhancing us
 
 ---
 
-# Nandoroid Shell v1.2.2 Release Notes
+## v1.2.2
 
-## Overview
+### Overview
 This update introduces a fully integrated Wallhaven service with smart features, enhances audio device management by filtering virtual nodes, and provides several UI/UX refinements across the lockscreen and system panels. Stability remains a focus with improved CAVA visualizer logic, OTA metadata handling, and secure command execution.
 
-## Changelog
+### Changelog
 
 **Media Player & UI**
 - Refactor MediaCard for better alignment and consistent gaps
@@ -159,12 +159,12 @@ This update introduces a fully integrated Wallhaven service with smart features,
 
 ---
 
-# Nandoroid Shell v1.2.1 Release Notes
+## v1.2.1
 
-## Overview
+### Overview
 This maintenance update introduces an expandable system tray with multiple styles, restores core Overview functionality, and focuses on cleaning up internal QML warnings to improve shell performance and reliability.
 
-## Changelog
+### Changelog
 
 **Status Bar & System Tray**
 - Implement expandable system tray with pop-up overflow
@@ -188,12 +188,12 @@ This maintenance update introduces an expandable system tray with multiple style
 
 ---
 
-# Nandoroid Shell v1.2 Release Notes
+## v1.2.0
 
-## Overview
+### Overview
 This update focuses on significant performance enhancements, massive stability improvements, a fully integrated auto-hiding Dock, and a variety of visual refinements across the shell. Memory leaks have been patched, system dependencies have been streamlined, and the UI has been polished to adhere closer to Material Design 3 guidelines.
 
-## Changelog
+### Changelog
 
 **Dock Implementation**
 - Add fully integrated dock with auto-hide functionality
@@ -229,6 +229,6 @@ This update focuses on significant performance enhancements, massive stability i
 - Transition away from legacy fish completions
 - Implement per-app volume control and translation tooltips within the Dashboard
 
-## Dependency Updates
+### Dependency Updates
 - **Added:** `adw-gtk-theme` (replaces adw-gtk3), `qt5ct`, `qt6ct`, `nwg-look`, `plasma-integration`, `breeze`, `breeze-icons`
 - **Optional:** `nandoroid-cli` (GitHub installer added to `install.sh`)
