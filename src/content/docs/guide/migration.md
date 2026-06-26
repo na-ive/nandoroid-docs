@@ -2,7 +2,7 @@
 title: Migration Guide
 description: Migrating to Nandoroid Shell from KDE or GNOME.
 sidebar:
-  order: 3
+  order: 4
 ---
 
 Making the jump from a full desktop environment like KDE Plasma or GNOME to a standalone window manager like Hyprland can feel daunting. This guide will help you understand exactly what changes when you switch to Nandoroid Shell and how to set up your new environment seamlessly.
