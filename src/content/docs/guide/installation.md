@@ -1,6 +1,8 @@
 ---
 title: Installation Guide
 description: Step-by-step guide to installing NAnDoroid-shell.
+sidebar:
+  order: 2
 ---
 
 Welcome! This guide will walk you through getting Nandoroid Shell up and running on your system. It is specifically tailored for clean Arch Linux or CachyOS setups running Hyprland.

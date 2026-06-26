@@ -1,6 +1,8 @@
 ---
 title: Introduction
 description: Overview and requirements for NAnDoroid-shell.
+sidebar:
+  order: 1
 ---
 
 # 【 NAnDoroid-shell 】
