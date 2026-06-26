@@ -8,32 +8,29 @@
   --sl-font-heading: 'Google Sans Flex', ui-sans-serif, system-ui, sans-serif;
 
   /* --- Custom Premium Blue Light Theme --- */
-  --sl-color-bg: #ECF0F5;
-  --sl-color-bg-nav: #ECF0F5;
-  --sl-color-bg-sidebar: #ECF0F5;
+  --sl-color-bg: #ECF4FD;
+  --sl-color-bg-nav: #ECF4FD;
+  --sl-color-bg-sidebar: #ECF4FD;
   
-  /* Text */
-  --sl-color-text: #0B192C;
-  --sl-color-white: #060E18;
+  --sl-color-text: #52637A;
+  --sl-color-white: #0A1321;
   --sl-color-black: #FFFFFF;
   
-  /* Accents */
-  --sl-color-accent: #2563EB;
-  --sl-color-text-accent: #1D4ED8;
-  --sl-color-accent-high: #1E3A8A;
-  --sl-color-accent-low: #DCE5F0;
+  --sl-color-accent: #1665A3;
+  --sl-color-text-accent: #114B7A;
+  --sl-color-accent-high: #0B2B47;
+  --sl-color-accent-low: #D7E4F5;
   
-  /* Grays & Borders */
-  --sl-color-hairline: #C5D0DA;
-  --sl-color-gray-1: #4B6079;
-  --sl-color-gray-2: #6B7A90;
-  --sl-color-gray-3: #8B9AAB;
-  --sl-color-gray-4: #AABBCB;
-  --sl-color-gray-5: #C5D0DA;
-  --sl-color-gray-6: #DCE5F0;
+  --sl-color-hairline: #C5D6E8;
+  --sl-color-gray-1: #0A1321;
+  --sl-color-gray-2: #213A5C;
+  --sl-color-gray-3: #52637A;
+  --sl-color-gray-4: #8B9EAF;
+  --sl-color-gray-5: #C5D6E8;
+  --sl-color-gray-6: #D7E4F5;
 
-  --color-card: #F4F6F9;
-  --color-border: #C5D0DA;
+  --color-card: #F4F7FB;
+  --color-border: #C5D6E8;
 }
 
 /* --- Dark Mode (Obsidian Blue) --- */
@@ -42,28 +39,25 @@
   --sl-color-bg-nav: #04080D;
   --sl-color-bg-sidebar: #04080D;
   
-  /* Text */
-  --sl-color-text: #A1B0BB;
-  --sl-color-white: #ECF5FD;
-  --sl-color-black: #020406;
+  --sl-color-text: #A1AABB;
+  --sl-color-white: #ECF4FD;
+  --sl-color-black: #020407;
   
-  /* Accents */
-  --sl-color-accent: #3B82F6;
-  --sl-color-text-accent: #60A5FA;
-  --sl-color-accent-high: #93C5FD;
-  --sl-color-accent-low: #0A1621;
+  --sl-color-accent: #216BC5;
+  --sl-color-text-accent: #4989D6;
+  --sl-color-accent-high: #ECF4FD;
+  --sl-color-accent-low: #0A1321;
   
-  /* Grays & Borders */
-  --sl-color-hairline: #112432;
-  --sl-color-gray-1: #ECF5FD;
-  --sl-color-gray-2: #A1B0BB;
-  --sl-color-gray-3: #7A8D9F;
-  --sl-color-gray-4: #4B6079;
-  --sl-color-gray-5: #2C3E50;
-  --sl-color-gray-6: #112432;
+  --sl-color-hairline: #111E31;
+  --sl-color-gray-1: #ECF4FD;
+  --sl-color-gray-2: #A1AABB;
+  --sl-color-gray-3: #617388;
+  --sl-color-gray-4: #33445A;
+  --sl-color-gray-5: #111E31;
+  --sl-color-gray-6: #0A1321;
 
-  --color-card: #081017;
-  --color-border: #112432;
+  --color-card: #080E17;
+  --color-border: #111E31;
 }
 
 /* --- UI Overrides (Dots Hyprland Wiki Style) --- */
