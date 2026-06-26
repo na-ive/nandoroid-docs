@@ -8,29 +8,29 @@
   --sl-font-heading: 'Google Sans Flex', ui-sans-serif, system-ui, sans-serif;
 
   /* --- Custom Premium Blue Light Theme --- */
-  --sl-color-bg: #ECF4FD;
-  --sl-color-bg-nav: #ECF4FD;
-  --sl-color-bg-sidebar: #ECF4FD;
+  --sl-color-bg: #F8FAFC;
+  --sl-color-bg-nav: #F8FAFC;
+  --sl-color-bg-sidebar: #F8FAFC;
   
-  --sl-color-text: #52637A;
-  --sl-color-white: #0A1321;
+  --sl-color-text: #475569;
+  --sl-color-white: #0F172A;
   --sl-color-black: #FFFFFF;
   
-  --sl-color-accent: #1665A3;
-  --sl-color-text-accent: #114B7A;
-  --sl-color-accent-high: #0B2B47;
-  --sl-color-accent-low: #D7E4F5;
+  --sl-color-accent: #2563EB;
+  --sl-color-text-accent: #1D4ED8;
+  --sl-color-accent-high: #1E3A8A;
+  --sl-color-accent-low: #DBEAFE;
   
-  --sl-color-hairline: #C5D6E8;
-  --sl-color-gray-1: #0A1321;
-  --sl-color-gray-2: #213A5C;
-  --sl-color-gray-3: #52637A;
-  --sl-color-gray-4: #8B9EAF;
-  --sl-color-gray-5: #C5D6E8;
-  --sl-color-gray-6: #D7E4F5;
+  --sl-color-hairline: #E2E8F0;
+  --sl-color-gray-1: #0F172A;
+  --sl-color-gray-2: #334155;
+  --sl-color-gray-3: #64748B;
+  --sl-color-gray-4: #94A3B8;
+  --sl-color-gray-5: #E2E8F0;
+  --sl-color-gray-6: #F1F5F9;
 
-  --color-card: #F4F7FB;
-  --color-border: #C5D6E8;
+  --color-card: #FFFFFF;
+  --color-border: #E2E8F0;
 }
 
 /* --- Dark Mode (Obsidian Blue) --- */
