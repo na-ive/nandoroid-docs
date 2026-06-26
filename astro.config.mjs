@@ -9,6 +9,11 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'NAnDoroid-shell',
+			defaultLocale: 'root',
+			locales: {
+				root: { label: 'English', lang: 'en' },
+				id: { label: 'Bahasa Indonesia', lang: 'id' },
+			},
 			logo: { src: './public/NAnDoroid.svg', replacesTitle: false },
 			favicon: '/NAnDoroid.svg',
 			customCss: ['./src/styles/custom.css'],

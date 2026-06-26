@@ -1,0 +1,50 @@
+---
+title: NAnDoroid-shell
+description: Desktop shell berbasis Quickshell untuk Hyprland dengan gaya desain ala Android 16.
+template: splash
+hero:
+  layout: centered
+  title: |
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+      <img src="/NAnDoroid.svg" alt="NAnDoroid Logo" style="width: 150px; height: 150px;" />
+      <span style="font-size: 60px; font-weight: 300;">NAnDoroid-shell</span>
+    </div>
+  tagline: |
+    <p style="font-size: 22px;">Desktop shell berbasis Quickshell untuk Hyprland dengan gaya desain ala Android 16.</p>
+  actions:
+    - text: Showcase
+      link: ./general/showcase
+      icon: star
+      variant: primary
+    - text: Get Started
+      link: ./guide/introduction
+      icon: right-arrow
+      variant: primary
+    - text: Repo GitHub (na-ive/nandoroid-shell)
+      link: https://github.com/na-ive/nandoroid-shell
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+	<Card title="[ [ Universal notch ] ]">
+    Media, workspace, pomodoro, dan popup. Semuanya jadi satu di dalam pill di tengah layar.
+	</Card>
+	<Card title="+//+ Material 3 Expressive +//+">
+    Otomatis ngambil warna dari wallpaper kamu. Persis kayak di HP.
+	</Card>
+	<Card title=">>× Deep Customizability ×<<">
+    Tweak sesuka hati. Mulai dari jam, lockscreen, hingga ukuran layout. Langsung dari menu Settings bawaan.
+	</Card>
+	<Card title="•• Infinite Wallpapers ••">
+    Bebas cari dan pasang wallpaper secara instan dari Wallhaven dan GitHub.
+	</Card>
+  <Card title="~>< Quality of life ><~">
+    OCR, Smart screen recording, Clipboard history. Semuanya bisa diakses lewat satu keybind aja.
+	</Card>
+  <Card title="$>_ Wayland Native _<$">
+    Berbasis Quickshell. Cepat, modern, dan dirancang khusus untuk Hyprland.
+	</Card>
+</CardGrid>
