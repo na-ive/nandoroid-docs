@@ -111,6 +111,11 @@ starlight-toc a[aria-current="true"] {
   color: var(--sl-color-text-accent) !important;
 }
 
+/* --- Search Modal Background --- */
+dialog, .dialog-frame {
+  background-color: var(--sl-color-bg) !important;
+}
+
 /* --- Navbar Item Ordering --- */
 .header-nav > div:nth-child(2) {
   order: 3 !important;
