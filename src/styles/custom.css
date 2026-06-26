@@ -1,0 +1,88 @@
+/* Import Google Sans Flex */
+@import "@fontsource/google-sans-flex";
+
+:root {
+  /* Font Override */
+  --sl-font: 'Google Sans Flex', ui-sans-serif, system-ui, sans-serif;
+  --sl-font-system: 'Google Sans Flex', ui-sans-serif, system-ui, sans-serif;
+  --sl-font-heading: 'Google Sans Flex', ui-sans-serif, system-ui, sans-serif;
+
+  /* --- Custom Premium Blue Light Theme --- */
+  --sl-color-bg: #ECF0F5;
+  --sl-color-bg-nav: #ECF0F5;
+  --sl-color-bg-sidebar: #ECF0F5;
+  
+  /* Text */
+  --sl-color-text: #0B192C;
+  --sl-color-white: #060E18;
+  --sl-color-black: #FFFFFF;
+  
+  /* Accents */
+  --sl-color-accent: #2563EB;
+  --sl-color-text-accent: #1D4ED8;
+  --sl-color-accent-high: #1E3A8A;
+  --sl-color-accent-low: #DCE5F0;
+  
+  /* Grays & Borders */
+  --sl-color-hairline: #C5D0DA;
+  --sl-color-gray-1: #4B6079;
+  --sl-color-gray-2: #6B7A90;
+  --sl-color-gray-3: #8B9AAB;
+  --sl-color-gray-4: #AABBCB;
+  --sl-color-gray-5: #C5D0DA;
+  --sl-color-gray-6: #DCE5F0;
+
+  --color-card: #F4F6F9;
+  --color-border: #C5D0DA;
+}
+
+/* --- Dark Mode (Obsidian Blue) --- */
+:root[data-theme='dark'] {
+  --sl-color-bg: #04080D;
+  --sl-color-bg-nav: #04080D;
+  --sl-color-bg-sidebar: #04080D;
+  
+  /* Text */
+  --sl-color-text: #A1B0BB;
+  --sl-color-white: #ECF5FD;
+  --sl-color-black: #020406;
+  
+  /* Accents */
+  --sl-color-accent: #3B82F6;
+  --sl-color-text-accent: #60A5FA;
+  --sl-color-accent-high: #93C5FD;
+  --sl-color-accent-low: #0A1621;
+  
+  /* Grays & Borders */
+  --sl-color-hairline: #112432;
+  --sl-color-gray-1: #ECF5FD;
+  --sl-color-gray-2: #A1B0BB;
+  --sl-color-gray-3: #7A8D9F;
+  --sl-color-gray-4: #4B6079;
+  --sl-color-gray-5: #2C3E50;
+  --sl-color-gray-6: #112432;
+
+  --color-card: #081017;
+  --color-border: #112432;
+}
+
+/* --- UI Overrides (Dots Hyprland Wiki Style) --- */
+
+.nova-link-button-primary {
+  border-radius: 9999px;
+}
+
+.nova-link-button-secondary {
+  border-radius: 9999px;
+}
+
+.card {
+  padding: 40px !important;
+  border-radius: 40px !important;
+  background-color: var(--color-card) !important;
+  border-color: var(--color-border) !important;
+}
+
+.actions {
+  gap: 10px;
+}
