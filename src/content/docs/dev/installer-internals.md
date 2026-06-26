@@ -35,4 +35,4 @@ The update script handles pulling new changes from the repository and applying t
 - **`shell`**: Updates *only* the QML files inside `~/.config/quickshell/nandoroid/`, leaving everything else untouched.
 
 ### Non-Destructive Design
-The updater uses `rsync` or safe `cp` commands to overlay new files. Since the user's personal Hyprland keybinds and terminal settings are stored in their primary config files (which only contain the injected `source` lines), updating the shell does not overwrite their personal desktop behavior.
+The updater uses `rsync` or safe `cp` commands to overlay new files. Since your personal Hyprland keybinds and terminal settings are stored in your primary config files (which only contain the injected `source` lines), updating the shell does not overwrite your personal desktop setup.
