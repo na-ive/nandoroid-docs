@@ -97,3 +97,18 @@
   align-items: center !important;
   text-align: center !important;
 }
+
+/* --- Premium Sidebar Active State --- */
+a[aria-current="page"] {
+  background-color: #2563EB !important;
+  color: #FFFFFF !important;
+  font-weight: 500 !important;
+}
+
+:root[data-theme='dark'] a[aria-current="page"] {
+  background-color: #216BC5 !important;
+}
+
+a[aria-current="page"] * {
+  color: #FFFFFF !important;
+}
