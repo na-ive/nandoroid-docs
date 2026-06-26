@@ -44,7 +44,7 @@ Saat menjalankan *web* ini secara lokal, Astro kadang menghilangkan atau gagal m
 
 Semua halaman dokumentasi ditulis menggunakan format Markdown (`.md` atau `.mdx`) dan berada di dalam folder `src/content/docs/`.
 
-- **Memperbarui `lastUpdated`**: Jika kamu membuat perubahan signifikan pada sebuah halaman, kamu disarankan memperbarui isian `lastUpdated` secara manual di bagian *frontmatter* (contoh: `lastUpdated: 2024-02-10`).
+- **`lastUpdated` Otomatis**: Kamu tidak perlu menambahkan atau memperbarui *field* `lastUpdated` secara manual di *frontmatter*. Situs dokumentasi ini secara otomatis mengambil tanggal pembaruan terakhir dari riwayat *commit* Git.
 - **Varian Markdown**: Starlight menyediakan beberapa ekstensi kustom (seperti komponen *asides* dan *tab*) yang berbeda dari standar GitHub Flavored Markdown. Untuk daftar lengkap fitur Markdown yang didukung, silakan baca [Starlight Authoring Guide](https://starlight.astro.build/guides/authoring-content/).
 
 ## Direktori Penting

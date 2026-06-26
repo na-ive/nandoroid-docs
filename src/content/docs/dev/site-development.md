@@ -44,7 +44,7 @@ When running the site locally, Astro occasionally strips or mishandles the base 
 
 All documentation pages are written in Markdown (`.md` or `.mdx`) and reside in the `src/content/docs/` folder.
 
-- **Updating `lastUpdated`**: When making significant changes to a page, you may manually update the `lastUpdated` field in the frontmatter (e.g., `lastUpdated: 2024-02-10`).
+- **Automatic `lastUpdated`**: You do not need to manually add or update a `lastUpdated` field in the frontmatter. The documentation site automatically fetches the last updated date from the Git commit history.
 - **Markdown Flavors**: Starlight provides several custom extensions (like asides and tab components) that differ from standard GitHub Flavored Markdown. For a full list of features, consult the [Starlight Authoring Guide](https://starlight.astro.build/guides/authoring-content/).
 
 ## Useful Locations
