@@ -2,6 +2,9 @@
 @import "@fontsource/google-sans-flex";
 
 :root {
+  /* Layout Constraints */
+  --container-max-width: 1100px;
+  
   /* Font Override */
   --sl-font: 'Google Sans Flex', ui-sans-serif, system-ui, sans-serif;
   --sl-font-system: 'Google Sans Flex', ui-sans-serif, system-ui, sans-serif;
@@ -55,60 +58,57 @@
   --sl-color-gray-4: #33445A;
   --sl-color-gray-5: #111E31;
   --sl-color-gray-6: #0A1321;
-
   --color-card: #080E17;
   --color-border: #111E31;
 }
 
-/* --- UI Overrides (Dots Hyprland Wiki Style) --- */
-
-.nova-link-button-primary {
-  border-radius: 9999px;
+/* --- Splash Page Layout Fixes --- */
+/* Restrict max width of the homepage and center it */
+.hero, .card-grid, .sl-container {
+  max-width: 900px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
-.nova-link-button-secondary {
-  border-radius: 9999px;
+/* Hide alt text of logos during loading */
+img[alt="NAnDoroid Logo"], 
+img[alt="NAnDoroid-shell"],
+.site-title img {
+  color: transparent !important;
 }
 
-.card {
-  padding: 40px !important;
-  border-radius: 40px !important;
-  background-color: transparent !important;
-  border: 1px solid var(--sl-color-gray-5) !important;
-}
-
-.actions {
-  gap: 10px;
+/* Force the third hero button to break to the next line and center using Grid */
+.hero .actions {
+  display: grid !important;
+  grid-template-columns: auto auto;
   justify-content: center !important;
-  flex-wrap: wrap !important;
+  column-gap: 1rem;
 }
 
-/* Force the third button (GitHub Repo) to drop to the next line and center */
-.actions > :nth-child(3) {
-  flex-basis: 100%;
-  justify-content: center;
-  margin-top: 0.5rem;
+.hero .actions > :nth-child(3) {
+  grid-column: 1 / -1;
+  justify-self: center !important;
+  margin-top: 1rem !important;
+  flex-basis: auto !important;
 }
 
-/* Force center alignment for the entire hero section */
-.hero, .hero .copy {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  text-align: center !important;
-}
-
-/* --- Premium Sidebar Active State --- */
-a[aria-current="page"] {
-  background-color: #2563EB !important;
+/* --- Premium Sidebar Active State (Colored Pill) --- */
+.entry-link[aria-current='page'] .entry-link-inner {
+  background-color: var(--sl-color-accent) !important;
   color: #FFFFFF !important;
   font-weight: 500 !important;
 }
 
-:root[data-theme='dark'] a[aria-current="page"] {
-  background-color: #216BC5 !important;
+:root[data-theme='dark'] .entry-link[aria-current='page'] .entry-link-inner {
+  background-color: var(--sl-color-accent) !important;
+  color: #FFFFFF !important;
 }
 
-a[aria-current="page"] * {
+.entry-link[aria-current='page'] .entry-link-inner * {
   color: #FFFFFF !important;
+}
+
+/* --- TOC Active State --- */
+starlight-toc a[aria-current="true"] {
+  color: var(--sl-color-text-accent) !important;
 }

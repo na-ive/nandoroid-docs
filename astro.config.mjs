@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import starlightThemeNova from 'starlight-theme-nova';
+import lucode from 'lucode-starlight';
 
 // https://astro.build/config
 export default defineConfig({
@@ -12,7 +12,7 @@ export default defineConfig({
 			logo: { src: './public/NAnDoroid.svg', replacesTitle: false },
 			favicon: '/NAnDoroid.svg',
 			customCss: ['./src/styles/custom.css'],
-			plugins: [starlightThemeNova()],
+			plugins: [lucode({ footerText: ' ' })],
 			editLink: {
 				baseUrl: 'https://github.com/na-ive/nandoroid-docs/edit/main/',
 			},
