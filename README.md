@@ -4,7 +4,7 @@ This repository contains the source code for the official [NAnDoroid-shell](http
 
 > Built using the powerful combination of [Astro](https://astro.build) and [Starlight](https://starlight.astro.build/), and continuously deployed via GitHub Pages.
 
-For details on how to contribute or run this project locally, please read our **[Development & Contribution Guide](https://nandoroid.naive.my.id/guide/development/)**.
+For details on how to contribute or run this project locally, please read our **[Development & Contribution Guide](https://nandoroid.naive.my.id/dev/site-development/)**.
 
 *(Note: If the live site happens to be down, you can always browse the raw markdown files directly from `src/content/docs/` in this repository).*
 
